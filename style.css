@@ -47,6 +47,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+ 
     height: 5vw;
     width: 12vw;
     background-color: rgb(53, 76, 53);
@@ -55,3 +56,23 @@ a{
     border-radius: 45px;
 
 }
+@media (max-width: 600px){
+.web{
+    width: 100%;
+    height: 18vw;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(53, 76, 53);
+
+}
+.contact{
+    margin:0 0 6vw 6vw;
+    height: 15vw;
+    width: 40vw;
+    gap:3vw;
+
+}
+ 
+
+}
+
